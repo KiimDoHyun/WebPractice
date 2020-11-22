@@ -1,0 +1,147 @@
+/* 색상 참고 : https://color.adobe.com/*/
+
+#body {
+    margin-top: 15vh;
+    transition: 1.0s;
+    background-color: #043340;
+    
+}
+
+#logoBox {
+    transition: 1.0s;
+    background-color: white;
+    margin-left: 35vw;
+    width: 30vw;
+    height: 65vh;
+    border-radius: 100px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    /* border-color: red; */
+}
+
+/* 가운데 정렬 요소들 */
+#logo {
+    text-align: center;
+    color:  black;
+    margin-top: 30px;
+}
+
+#id {
+    z-index: 10;
+    transition: 0.3s;
+    position: fixed;
+    top: 36vh;
+    margin-left: 10vw;
+    font-size: 15px;
+}
+
+#pw {
+    z-index: 10;
+    transition: 0.3s;
+    position: fixed;
+    top: 51vh;
+    margin-left: 10vw;
+    font-size: 15px;
+}
+
+#okButton {
+    transition: 0.6s;
+    position: fixed;
+    top: 60vh;
+    margin-left: 5vw;
+    width: 20vw;
+    height: 40px;
+    margin-top: 10vh;
+    border-style: none;
+    background-color:#057BE8;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+#okButton:hover {
+    cursor: pointer;
+}
+
+#idInput {
+    position: fixed;
+    top: 36vh;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-style: none;
+    margin-left: 5vw;
+    color: #595959;
+    width: 20vw;
+    outline: none;
+}
+
+#pwInput {
+    position: fixed;
+    top: 51vh;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-style: none;
+    margin-left: 5vw;
+    color: #595959;
+    width: 20vw;
+    outline: none;
+}
+
+
+/* #idInput {
+    transition: 0.3s;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 40px;
+    background-color: lightslategray;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    text-align: center;
+} */
+
+/* #idInput:hover, #pwInput:hover {
+    transition: 0.3s;
+    margin-left: 5vw;
+    width: 20vw;
+} */
+
+/* #pwInput {
+    transition: 0.3s;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 40px;
+    background-color: lightslategray;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    text-align: center;
+} */
+
+/* 입력칸 아래 움직일 선 */
+#idLine {
+    position: fixed;
+    top: 40vh;
+    transition: 0.3s;
+    background-color: black;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 2px;
+}
+
+#pwLine {
+    position: fixed;
+    top: 55vh;
+    transition: 0.3s;
+    background-color: black;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 2px;
+}
+
